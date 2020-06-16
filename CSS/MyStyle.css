@@ -63,8 +63,9 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
+.nav-item{
+    background-color: #856404;
+}
 
 
 

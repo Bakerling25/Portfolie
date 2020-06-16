@@ -13,11 +13,11 @@
     <link href='../css/bootstrap-reboot.min.css' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/MyStyle.css" rel="stylesheet" type="text/css">
     
 </head>
 <body>
-    <div class="menu">
+    <div class="menu nav-item">
         <?php include 'Nav.php';?>
     </div>
 </body>
