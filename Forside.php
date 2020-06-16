@@ -17,7 +17,9 @@
     
 </head>
 <body>
-    
+    <div class="menu">
+        <?php include 'Nav.php';?>
+    </div>
 </body>
 
 </html>

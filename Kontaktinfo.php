@@ -13,13 +13,12 @@
     <link href='../css/bootstrap-reboot.min.css' rel='stylesheet' type='text/css'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="Nav.html">
     <link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div id="placeholder">
-        
+    <div id="menu">
+        <?php include 'Nav.php';?>
     </div>
     <div class="info">
         <h1>Kontakt</h1>
@@ -33,11 +32,7 @@
         <p class="Kontakt">     
         </p>
     </div>
-    <script>
-        $.get("P:\Portfolie\Nav.html", function(data){
-            $("#placeholder").replaceWith(data);
-        });
-    </script>
+    
 </body>
 
 

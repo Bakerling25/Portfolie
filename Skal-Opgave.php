@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Game-Changer</title>
+		<title>Skal-Opgave</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,57 +14,10 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
 	</head>
-<body>
-
-<!-- Navigation -->
-
-
-<!--- Image Slider -->
-
-
-<!--- Jumbotron -->
-
-
-<!--- Welcome Section -->
-
-
-<!--- Three Column Section -->
-
-
-<!--- Two Column Section -->
-
-
-<!--- Fixed background -->
-
-
-<!--- Emoji Section -->
-
-  
-<!--- Meet the team -->
-
-
-<!--- Cards -->
-
-
-<!--- Two Column Section -->
-
-
-<!--- Connect -->
-
-
-<!--- Footer -->
-
-
-
-
-</body>
+    <body>
+        <div id="menu">
+            <?php include 'Nav.php';?>
+        </div>
+    </body>
 </html>
 
-
-
-
-
-
-
-
-<!--- Check out my courses! -->

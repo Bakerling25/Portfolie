@@ -1,24 +1,17 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light" id ="data">
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Forside</a>
+                <a class="nav-link" href="Forside.php">Forside</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skal-Opgave</a>
+                <a class="nav-link" href="Skal-Opgave.php">Skal-Opgave</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
+                  <a class="nav-link" href="Kontaktinfo.php">Kontaktinfo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">CV</a>
+                  <a class="nav-link" href="CV.php">CV</a>
               </li>
             </ul>
         </nav>
-    </body>
-</html>

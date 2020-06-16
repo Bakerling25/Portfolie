@@ -15,6 +15,8 @@
         <link href="../css/MyStyle.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-
+        <div>
+            <?php include 'Nav.php';?>
+        </div>
     </body>
 </html>
