@@ -19,6 +19,9 @@
     <div>
         <?php include 'Nav.php';?>
     </div>
+    
 </body>
-
+<footer>
+    
+</footer>
 </html>
