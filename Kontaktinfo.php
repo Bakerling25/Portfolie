@@ -17,7 +17,7 @@
 
 <body>
     <div>
-        <?php include 'Nav.php';?>
+        <?php include 'Menu.php';?>
     </div>
     <div class="info">
         <h1>Kontakt</h1>

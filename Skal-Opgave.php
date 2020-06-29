@@ -13,7 +13,7 @@
 	</head>
     <body>
         <div>
-            <?php include 'Nav.php';?>
+            <?php include 'Menu.php';?>
         </div>
     </body>
 </html>
