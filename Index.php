@@ -1,3 +1,6 @@
+<?php
+    include ('Globals.php');
+?>
 <!DOCTYPE html>
 <html>
     
@@ -6,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Forside</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link href="../CSS/MyStyle.css" rel="stylesheet" type="text/css">
+    <link href="CSS/MyStyle.css" rel="stylesheet" type="text/css">
     
 </head>
 <body>
@@ -15,7 +18,7 @@
     </div>
         <div class="row">
             <div id="LogoContent" class="col-sm-12">
-                
+                Logo
             </div>
         </div>
         <div class="row">
@@ -24,16 +27,9 @@
                     <div class="col-sm-12">
                         <div class="PageHeaders" class="row">
                             <div class="col-sm-12">
-                                <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br />
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br />
-                                    It has survived not only five centuries, but also the leap into electronic typesetting,<br />
-                                    remaining essentially unchanged.<br />
-                                    It was popularised in the 1960s with the release of Letraset sheets containing <br />
-                                    Lorem Ipsum passages, and more recently with desktop publishing software like<br />
-                                    Aldus PageMaker including versions of Lorem Ipsum.
-                                </p>
+                                <?php
+                                    ForsideContent ();
+                                ?>
                             </div>
                         </div>
                         <div class="PageContents" class="row">
@@ -49,12 +45,12 @@
                     <div class="col-sm-12">
                         <div class="PageHeaders" class="row">
                             <div class="col-sm-12">
-                            
+                               
                             </div>
                         </div>
                         <div class="PageContents" class="row">
                             <div id="TopRightContent" class="col-sm-12">
-                            
+                                
                             </div>
                         </div>
                     </div>
@@ -81,10 +77,15 @@
                     Copryright &copy; portfolio
                 </nav>
             </div>
-        </div>
-    
+        </div>   
 </body>
-<footer>
-    
-</footer>
 </html>
+<?php
+function centerContent(){
+    $GLOBALS['Site'] = "Forside";
+    include 'Functions/SiteDecider.php';
+}
+function rightContent(){
+    
+} 
+?>
