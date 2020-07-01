@@ -2,13 +2,35 @@
     
 if ($_SERVER["REQUEST_METHOD"]== "GET")
 {
-    if ($GLOBALS['Site'] == "pageHeader"){
+    if ($GLOBALS['Decider'] == "pageHeader"){
     
-        echo 'PageHeader';
+        if (isset($_GET['forside'])) {
+            echo 'Forside';
+        }
+        else if(isset ($_GET['skal-opgave'])){
+            echo 'Skal-Opgave';
+        }
+        else if(isset ($_GET['kontaktinfo'])){
+            echo 'Kontaktinfo';
+        }
+        else{
+            echo 'CV';
+        }
     }
 else{
-    
-        echo 'PageContent'; 
+        if (isset($_GET['forside'])) {
+            include 'Content/Forside.php';
+        }
+        else if(isset ($_GET['skal-opgave'])){
+            echo 'Skal-Opgave';
+        }
+        else if(isset ($_GET['kontaktinfo'])){
+            echo 'Kontaktinfo';
+        }
+        else{
+            echo 'CV';
+        }
+        
     }
 }
 else{
