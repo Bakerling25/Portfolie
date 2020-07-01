@@ -28,13 +28,15 @@
                         <div class="PageHeaders" class="row">
                             <div class="col-sm-12">
                                 <?php
-                                    ForsideContent ();
+                                    mainHeader();
                                 ?>
                             </div>
                         </div>
                         <div class="PageContents" class="row">
                             <div class="col-sm-12">
-                            
+                                <?php
+                                    mainContent();
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -45,12 +47,16 @@
                     <div class="col-sm-12">
                         <div class="PageHeaders" class="row">
                             <div class="col-sm-12">
-                               
+                               <?php
+                                    topRightHeader();
+                               ?>
                             </div>
                         </div>
                         <div class="PageContents" class="row">
                             <div id="TopRightContent" class="col-sm-12">
-                                
+                                <?php
+                                    topRightContent();
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -59,12 +65,16 @@
                     <div class="col-sm-12">
                         <div class="PageHeaders" class="row">
                             <div class="col-sm-12">
-                            
+                                <?php
+                                    buttomRightHeader();
+                                ?>
                             </div>
                         </div>
                         <div class="PageContents" class="row">
                             <div class="col-sm-12">
-                            
+                                <?php
+                                    buttomRightContent()
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -74,18 +84,34 @@
         <div class="row">
             <div id="FooterContainer" class="col-sm-12">
                 <nav id="Footer" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-                    Copryright &copy; portfolio
+                    Copyright &copy; SallingPortfolio
                 </nav>
             </div>
         </div>   
 </body>
 </html>
 <?php
-function centerContent(){
-    $GLOBALS['Site'] = "Forside";
+function mainHeader(){
+    $GLOBALS['Decider'] = "pageHeader";
     include 'Functions/SiteDecider.php';
 }
-function rightContent(){
-    
-} 
-?>
+function mainContent(){
+    $GLOBALS['Decider'] = "pageContent";
+    include 'Functions/SiteDecider.php';
+}
+function topRightHeader(){
+    $GLOBALS['Decider'] = "pageHeader";
+    include 'Functions/SiteDecider.php';
+}
+function topRightContent(){
+    $GLOBALS['Decider'] = "pageContent";
+    include 'Functions/SiteDecider.php';
+}
+function buttomRightHeader(){
+    $GLOBALS['Decider'] = "pageHeader";
+    include 'Functions/SiteDecider.php';
+}
+function buttomRightContent(){
+    $GLOBALS['Decider'] = "pageContetnt";
+    include 'Functions/SiteDecider.php';
+}

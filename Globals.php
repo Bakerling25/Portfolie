@@ -1,4 +1,4 @@
 <?php
 
-    $Site = "";
+    $Decider = "";
 

@@ -1,14 +1,14 @@
 <?php
-    $test = $GLOBALS['Site'];
+    
 if ($_SERVER["REQUEST_METHOD"]== "GET")
 {
-    if ($GLOBALS['Site'] == "Forside"){
+    if ($GLOBALS['Site'] == "pageHeader"){
     
-        include_once 'Content/Forside.php';
+        echo 'PageHeader';
     }
 else{
     
-        echo 'PlaceholderText'; 
+        echo 'PageContent'; 
     }
 }
 else{
